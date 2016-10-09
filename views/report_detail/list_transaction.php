@@ -34,7 +34,7 @@
                                                <td><?php
 											   $building = ($row_tr['table_id']!=0) ? " (".$row_tr['building_name'].")" : ""; 
 											   echo $row_tr['table_name'].$building; ?></td>
-                                               <td><?= tool_format_number($row_tr['transaction_total'])?></td>
+                                               <td><?= tool_format_number($row_tr['transaction_grand_total'])?></td>
                                                <td><?= tool_format_number($row_tr['transaction_payment'])?></td>
                                                <td><?= tool_format_number($row_tr['transaction_change'])?></td>
                                                <td style="text-align:center;">

@@ -51,7 +51,7 @@ switch ($page) {
 			$row->menu_price = false;
 			$row->menu_img = false;
 			$row->partner_id = false;
-			$row->out_time = false;
+			$row->out_time = 5;
 
 			$action = "menu.php?page=save";
 		}
